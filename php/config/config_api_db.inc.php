@@ -1,6 +1,5 @@
 <?php
 $db_handle_name = 'api_db';
 $dbconfig = array(
-    'master'=>array('host'=>'192.168.0.244','user'=>'root','pass'=>'123456','dbname'=>'ent_crazyteacher','dbport'=>'3306'),
-    'slave'=>array('host'=>'192.168.0.244','user'=>'root','pass'=>'123456','dbname'=>'ent_crazyteacher','dbport'=>'3306'),
+    'master'=>array('host'=>'127.0.0.1','user'=>'root','pass'=>'123456','dbname'=>'test','dbport'=>'3306'),
 );
