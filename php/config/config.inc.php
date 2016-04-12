@@ -2,21 +2,19 @@
 /**
  * @名称 config.inc.php
  * @功能 config
- * @author <zhukai05@baidu.com>
  * @version v1.0
  */
 
 define('DEBUG', true);//开发中
-define("DB_DEBUG",true);//mysql debug
+define("DB_DEBUG",true);
 define('IS_SECURE', true);
 
-define('IS_SYNC',true);//Synchronize controller
+define('IS_SYNC',true);
 
 define('PRJ_ROOT', dirname(dirname(dirname(__FILE__))));
 
 define('WWW_ROOT', PRJ_ROOT . '/app');
 define("PHP_ROOT", PRJ_ROOT . "/php");
-//define("PHP_SHELL",PRJ_ROOT."/shell");
 define("PHP_MODEL",PHP_ROOT."/model/dao");
 define("PHP_FREWORK",PHP_ROOT."/framework");
 define("PHP_LIB", PHP_ROOT . "/lib");
@@ -33,8 +31,6 @@ define("CHINO_DEFAULTENCODE",'utf-8');
 
 //db prefix
 define("TABLE_PRE","cloud_");
-define("CLOUD_VERSION","201404042121");
-define("CLOUD_COMPRESS",1);
 
 define("PHP_SMARTY",PHP_ROOT."/smarty");
 define('SMARTY_PLUGIN', PHP_SMARTY.'/baidu_plugin');
