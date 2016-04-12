@@ -1,0 +1,2 @@
+version 1.0.0
+FISResource.class.php   添加异常
